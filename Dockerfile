@@ -1,6 +1,6 @@
 FROM debian:8.3
 
-ENV BATMAN_VERSION=2016.5
+ENV BATMAN_VERSION=2017.0.1
 ENV PACKAGES="build-essential checkinstall pkg-config curl libnl-genl-3-200 libnl-3-dev libnl-genl-3-200 libnl-genl-3-dev golang git"
 ENV REMOVE_PACKAGES="build-essential checkinstall pkg-config libnl-3-dev libnl-genl-3-dev"
 
