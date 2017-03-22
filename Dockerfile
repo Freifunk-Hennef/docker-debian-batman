@@ -1,6 +1,7 @@
 FROM debian:8.3
 
 ENV BATCTL_VERSION=2017.0
+ENV DOLLAR='$'
 ENV PACKAGES="build-essential checkinstall pkg-config curl libnl-genl-3-200 libnl-3-dev libnl-genl-3-200 libnl-genl-3-dev git gettext-base"
 ENV REMOVE_PACKAGES="build-essential checkinstall pkg-config libnl-3-dev libnl-genl-3-dev"
 
